@@ -1,8 +1,10 @@
 # ATRefreshControl
 
+A custom UIRefreshControl written in Swift with gradient animation.
+
+
 [![N|Solid](https://i.imgur.com/sdxV5Yq.gif)](https://i.imgur.com/sdxV5Yq.gif)
 
-A custom UIRefreshControl written in Swift with gradient animation.
 
 Exemple:
 ```sh
