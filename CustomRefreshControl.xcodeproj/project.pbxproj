@@ -12,6 +12,7 @@
 		3367DC931FC9A00300213844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3367DC911FC9A00300213844 /* Main.storyboard */; };
 		3367DC951FC9A00300213844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3367DC941FC9A00300213844 /* Assets.xcassets */; };
 		3367DC981FC9A00300213844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3367DC961FC9A00300213844 /* LaunchScreen.storyboard */; };
+		3367DCA01FC9A02E00213844 /* ATRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3367DC9F1FC9A02E00213844 /* ATRefreshControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3367DC941FC9A00300213844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3367DC971FC9A00300213844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3367DC991FC9A00300213844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3367DC9F1FC9A02E00213844 /* ATRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATRefreshControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3367DC8D1FC9A00300213844 /* AppDelegate.swift */,
 				3367DC8F1FC9A00300213844 /* ViewController.swift */,
+				3367DC9F1FC9A02E00213844 /* ATRefreshControl.swift */,
 				3367DC911FC9A00300213844 /* Main.storyboard */,
 				3367DC941FC9A00300213844 /* Assets.xcassets */,
 				3367DC961FC9A00300213844 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3367DC901FC9A00300213844 /* ViewController.swift in Sources */,
+				3367DCA01FC9A02E00213844 /* ATRefreshControl.swift in Sources */,
 				3367DC8E1FC9A00300213844 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +279,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXHD4G8GB5;
 				INFOPLIST_FILE = CustomRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriantabirta.CustomRefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXHD4G8GB5;
 				INFOPLIST_FILE = CustomRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriantabirta.CustomRefreshControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
